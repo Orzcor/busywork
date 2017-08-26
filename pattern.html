@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pattern</title>
+    <style>
+        #myDiv{
+            position:absolute;background:#676767;width:50px;height:50px
+        }
+
+        #ball{
+            position:absolute;background:#000;width:50px;height:50px
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="myDiv"></div> -->
+    <form action="localhost" id="registerForm" method="post">
+        <p>请输入用户名：<input type="text" name="userName"></p>
+        <p>请输入密码：<input type="text" name="password"></p>
+        <p>请输入手机号码：<input type="text" name="phoneNumber"></p>
+        <input type="submit">
+    </form>
+
+    <p><button id="button1">按钮1</button></p>
+
+    <div id="ball"></div>
+    输入小球移动后的位置: <input type="text" id="pos">
+    <p><button id="moveBtn">开始移动</button></p>
+
+    <script src="pattern.js"></script>
+</body>
+</html>
